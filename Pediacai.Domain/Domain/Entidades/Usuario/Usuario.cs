@@ -7,17 +7,12 @@ namespace Pediacai.Domain
     public class Usuario
     {
         public int Id { get; set; }
-
-        public string Nome { get; set; }
-
-        public string Sobrenome { get; set; }
-
+        public string Name { get; set; }
+        public string LastName { get; set; }
+        public string FullName { get; set; }
         public string Email { get; set; }
-
         public string Token { get; set; }
-
-        public DateTime DataCadastro { get; set; }
-
-        public DateTime UltimoAcesso { get; set; }
+        public DateTime DateRecorder { get; set; }
+        public DateTime LastAcess { get; set; }
     }
 }
