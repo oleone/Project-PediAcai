@@ -1,9 +1,0 @@
-X:\DotnetCore\Pediacai\Pediacai.Domain\bin\Debug\netcoreapp2.1\Pediacai.Domain.deps.json
-X:\DotnetCore\Pediacai\Pediacai.Domain\bin\Debug\netcoreapp2.1\Pediacai.Domain.dll
-X:\DotnetCore\Pediacai\Pediacai.Domain\bin\Debug\netcoreapp2.1\Pediacai.Domain.pdb
-X:\DotnetCore\Pediacai\Pediacai.Domain\obj\Debug\netcoreapp2.1\Pediacai.Domain.csprojAssemblyReference.cache
-X:\DotnetCore\Pediacai\Pediacai.Domain\obj\Debug\netcoreapp2.1\Pediacai.Domain.csproj.CoreCompileInputs.cache
-X:\DotnetCore\Pediacai\Pediacai.Domain\obj\Debug\netcoreapp2.1\Pediacai.Domain.AssemblyInfoInputs.cache
-X:\DotnetCore\Pediacai\Pediacai.Domain\obj\Debug\netcoreapp2.1\Pediacai.Domain.AssemblyInfo.cs
-X:\DotnetCore\Pediacai\Pediacai.Domain\obj\Debug\netcoreapp2.1\Pediacai.Domain.dll
-X:\DotnetCore\Pediacai\Pediacai.Domain\obj\Debug\netcoreapp2.1\Pediacai.Domain.pdb
