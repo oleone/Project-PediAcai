@@ -55,8 +55,26 @@ namespace Pediacai.API.Controllers
 
         // POST: api/Empresa
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> Post([FromBody] Empresa value)
         {
+            try
+            {
+                var results = await _context.AddAsync<Empresa>(value);
+                var aaa = await _context.SaveChangesAsync();
+
+                if (aaa == 1)
+                {
+                    return Ok(value);
+                }
+                else
+                {
+                    return this.StatusCode(StatusCodes.Status501NotImplemented);
+                }
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         // PUT: api/Empresa/5
@@ -67,8 +85,16 @@ namespace Pediacai.API.Controllers
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            try
+            {
+                var results = _context.Remove();
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
     }
 }
